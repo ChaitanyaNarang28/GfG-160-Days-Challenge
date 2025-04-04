@@ -1,8 +1,7 @@
 # Stock Buy and Sell – Max one Transaction Allowed
 
-''' 
-cpp
 
+```cpp
 class Solution {
   public:
     int maximumProfit(vector<int> &prices) {
@@ -25,3 +24,4 @@ class Solution {
     }
 };
 
+```
