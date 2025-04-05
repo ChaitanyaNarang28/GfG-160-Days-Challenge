@@ -1,4 +1,4 @@
-Minimize the Heights II
+# *Minimize the Heights II*
 
 
 ```cpp
