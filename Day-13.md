@@ -1,4 +1,4 @@
-# *Smallest Positive Missing
+# *Smallest Positive Missing*
 
 ```cpp
 
