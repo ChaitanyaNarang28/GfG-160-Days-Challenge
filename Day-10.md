@@ -1,4 +1,4 @@
-#*Kadane's Algorithm*
+# *Kadane's Algorithm*
 
 ```cpp
 class Solution {
