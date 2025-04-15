@@ -11,8 +11,9 @@ class Solution {
         vector<int> lps(m,0);
         vector<int> result;
         int len=0;
+        int i=1;
         
-        for(int i=1;i<m;i++)
+        while(i<m)
         {
             if(pat[i]==pat[len])
             {
@@ -31,8 +32,8 @@ class Solution {
                 }
             }
         }
-        
-        int i=0,j=0;
+        i=0;
+        int j=0;
         while(i<n)
         {
             if(txt[i]==pat[j])
@@ -49,7 +50,7 @@ class Solution {
             
             else if(i<n && txt[i]!=pat[j])
             {
-                if(j!=0)mj=lps[j-1];
+                if(j!=0) j=lps[j-1];
                 
                 else i++;
             }
